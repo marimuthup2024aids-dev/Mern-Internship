@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Contact | P Marimuthu</title>
+  <link rel="stylesheet" href="styles.css"/><script defer src="script.js"></script>
+</head>
+<body>
+  <header class="topbar"><div class="wrap"><div class="brand">P MARIMUTHU</div>
+    <nav class="nav" id="mainNav">
+      <a href="index.html" class="nav-link">HOME</a>
+      <a href="about.html" class="nav-link">ABOUT</a>
+      <a href="education.html" class="nav-link">EDUCATION</a>
+      <a href="projects.html" class="nav-link">PROJECTS</a>
+      <a href="coding.html" class="nav-link">CODING PROFILES</a>
+      <a href="skills.html" class="nav-link">SKILLS</a>
+      <a href="contact.html" class="nav-link">CONTACT</a>
+      <button id="themeToggle" class="icon-btn">🌙</button>
+    </nav></div></header>
+
+  <main class="container">
+    <h2 class="title gradient-title">Contact</h2>
+
+    <div class="contact-grid">
+      <div class="card neon-card">
+        <img src="myphoto.jpg" class="small-pic" alt="Marimuthu"/>
+        <h3>P Marimuthu</h3>
+        <p>📞 7548856694</p>
+        <p>✉️ <a href="mailto:marimuthu582007@gmail.com">marimuthu582007@gmail.com</a></p>
+        <div class="socials">
+          <a class="chip" href="https://github.com/marimuthup2024aids-dev" target="_blank">GitHub</a>
+          <a class="chip" href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+
+      <form class="card neon-card contact-form" onsubmit="sendMail(event)">
+        <label><span>Name</span><input name="name" required></label>
+        <label><span>Email</span><input name="email" type="email" required></label>
+        <label><span>Message</span><textarea name="message" rows="6" required></textarea></label>
+        <div class="form-actions">
+          <button class="btn neon" type="submit">Send</button>
+          <button class="btn ghost" type="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <button id="toTop" class="to-top">↑</button>
+  <footer class="footer">© <span id="year7"></span> P Marimuthu</footer>
+</body>
+</html>
